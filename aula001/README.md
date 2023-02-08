@@ -13,6 +13,7 @@ O PHP é:
 - Introdução ao PHP
 - Infraestrutura necessária
 - Onde colocar os nossos arquivos
+- Delimitador
 - Comentários
 - Escrita na tela
 - Variável
@@ -37,6 +38,9 @@ O PHP é:
 - Para o XAMPP, o local aonde devemos colocar os arquivos é `c:\xampp\htdocs`. Exemplo: `c:\xampp\htdocs\loja\index.php`.
 - Para executar arquivos PHP, precisamos requisitá-los à partir do navegador digitando `http://localhost`. Exemplo: `http://localhost/loja/index.php`
 
+## Delimitador
+- `<?php ?>`
+
 ## Comentário
 - `//` comentário de uma linha
 - `/* */` comentário de várias linhas
@@ -45,7 +49,7 @@ O PHP é:
 - comandos: `echo` , `print` e `print_r`
 
 ## Variável
-- espaço reservado na memória que damos um nome para armazenar algum valor
+- Espaço reservado na memória que damos um nome para armazenar algum valor
 - O PHP é case-sensitive, significa que o PHP diferencia maiúsculas de minúsculas, ou seja, Nome é diferente de nome
-- O nome de uma variável deve ser significativo de acordo com seu valor. Exemplo: uma  variável que vai armazenar o endereço pode-se chamar $endereco
-- toda variável em PHP inicia com $
+- O nome de uma variável deve ser significativo de acordo com seu valor. Exemplo: uma variável que vai armazenar o endereço pode-se chamar $endereco
+- toda variável em PHP inicia com `$`
