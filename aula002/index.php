@@ -45,4 +45,12 @@ echo ($n1 < $n2) . "<br>";
 echo ($n1 <= $n2) . "<br>";
 echo ($n1 != $n2) . "<br>";
 echo ($n1 == $n2) . "<br>";
+
+
+echo "<h2>Operadores lógicos</h2>";
+echo (20>10) && (10>5);
+echo "<br>";
+echo (20>10) || (10>15);
+echo "<br>";
+echo !(10 < 5);
 ?>

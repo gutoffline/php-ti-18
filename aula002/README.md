@@ -30,3 +30,7 @@
 - `==` igualdade
 - `!=` diferente
 
+## Operadores lógicos
+- `&&` E ou AND - todas as expressões devem ser verdadeiras para o resultado final ser verdadeiro
+- `||` OU or OR - apenas uma das operações precisa ser verdadeira par ao resultado final ser verdadeiro.
+- `!` Negação ou NOT - inverte o resultado final da operação, se for falso, ele muda para verdadeiro, se for verdadeiro muda para falso
