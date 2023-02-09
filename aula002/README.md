@@ -11,6 +11,9 @@
     - float: número com casas decimais. Exemplo: 1000.05
     - boolean: valores booleanos, true(verdadeiro) ou false(falso)
 
+## Operador de atribuição
+- `=` operador de atribuição, pega o que está do lado direito do operador e coloca dentro do que está do lado esquerdo. Exemplo: $nome = "Guto"
+
 ## Operadores aritméticos
 - `+` adição
 - `-` subtração
@@ -18,3 +21,12 @@
 - `/` divisão
 - `%` resto da divisão
 - `**` exponenciação
+
+## Operadores relacionais
+- `>` maior
+- `>=` maior ou igual
+- `<` menor
+- `<=` menor ou igual
+- `==` igualdade
+- `!=` diferente
+
