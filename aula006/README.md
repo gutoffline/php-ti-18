@@ -1,7 +1,7 @@
 # Cadastro de clientes
 ## Lista de tarefas
 
-- [ ] acrescentar um campo estado
+- [X] acrescentar um campo estado
 - [] acrescentar um campo de e-mail
 - [] listagem dos clientes na tela
 - [] tornar o campo nome e telefone obrigatório
