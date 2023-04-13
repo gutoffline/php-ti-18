@@ -15,6 +15,20 @@
             <th>Nome</th>
             <th>Telefone</th>
         </tr>
+        <?php
+        $conexao = mysqli_connect("localhost","root","","contatos");
+
+        $sqlBusca = "select * from pessoas";
+        $todasAsPessoas = mysqli_query($conexao, $sqlBusca);
+
+        while($umaPessoa = mysqli_fetch_assoc($todasAsPessoas)){
+            echo "<tr>";
+            echo "<td>" . $umaPessoa["nome"] . "</td>";
+            echo "<td>" . $umaPessoa["telefone"] . "</td>";
+            echo "</tr>";
+        }
+        mysqli_close($conexao);
+        ?>
     </table>
 </body>
 

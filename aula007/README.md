@@ -21,6 +21,8 @@
 
 `SELECT * FROM `pessoas` WHERE nome > 'guto xavier';`
 
+`SELECT * FROM `pessoas` WHERE nome = 'guto xavier';`
+
 `select * from pessoas where idade >= 18;`
 
 `SELECT * FROM `pessoas` WHERE nome != 'guto xavier';`
