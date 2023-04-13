@@ -9,6 +9,7 @@ Entrada = 4
 Saída = 4 X 0 = 0...4 X 10 = 40.
 
 3. Crie um programa em que o usuário escolha uma operação (soma, subtração, multiplicação ou divisão). Crie duas caixas de texto para receber 2 números. Realize a operação escolhida em cada um dos números. 
+
 4. Solicite a entrada de um número e descubra se um número digitado é par ou ímpar. 
 
 5. Faça um algoritmo PHP que receba os valores A e B, imprima-os em ordem crescente em relação aos seus valores. Exemplo, para A=5, B=4. Você deve imprimir na tela: "4 5".
