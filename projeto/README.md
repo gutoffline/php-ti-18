@@ -25,6 +25,13 @@
 
 
 ## Descrição do projeto
+- ABERTO
+    - Site
+        - CADASTRO DE NOVO USUARIO
+        - Login
+        - Catálogo
+        - Banner
+        - Formulário de contato(whatsapp)
 - FECHADA
     - Painel administrativo
     - Cadastro do usuário
@@ -35,17 +42,12 @@
         - Alteração dos dados do jogo
         - Exclusão de um jogo
     - Agendamento de retirada e devolução
-- ABERTO
-    - Site
-        - Login
-        - Catálogo
-        - Banner
-        - Formulário de contato
+
 
 ## Desenvolvimento do projeto
 - Banco de Dados 
     - MER/DER
     - Script
-- Protótipo (Figma)
+- Protótipo (Figma) 
+    https://www.figma.com/file/q4xtjqPulYP1hnykisXCRd/DELIVERY_JOGOS?node-id=0%3A1&t=ey5qAOsqab3rLxfO-1
 - Codificação
-- 
