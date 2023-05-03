@@ -67,6 +67,7 @@
                 </div>
                 <?php
             endwhile;
+            mysqli_close($conexao);
             ?>
         </div>
         <div class="row mt-5">
