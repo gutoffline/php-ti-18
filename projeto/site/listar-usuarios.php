@@ -6,7 +6,7 @@ include "menu-sistema.php";
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Lista de Usuários</h1>
+            <h1>Lista de usuários</h1>
         </div>
     </div>
     <div class="row">
@@ -15,8 +15,8 @@ include "menu-sistema.php";
                 <thead>
                     <tr>
                         <th>Código</th>
-                        <th>Título</th>
-                        <th>Categoria</th>
+                        <th>Nome</th>
+                        <th>E-mail</th>
                         <th>Ações</th>
                     </tr>
                 </thead>
@@ -24,8 +24,8 @@ include "menu-sistema.php";
                     <?php
                     include "conexao.php";
                     $sql_buscar = "select * from usuario";
-                    $todo_os_usuarios = mysqli_query($conexao, $sql_buscar);
-                    while ($um_usuario = mysqli_fetch_assoc($todo_os_usuarios)) :
+                    $todos_os_usuarios = mysqli_query($conexao, $sql_buscar);
+                    while ($um_usuario = mysqli_fetch_assoc($todos_os_usuarios)) :
                         ?>
                         <tr>
                             <td> <?php echo $um_usuario["id"]; ?></td>
