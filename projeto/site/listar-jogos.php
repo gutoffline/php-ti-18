@@ -11,6 +11,11 @@ include "menu-sistema.php";
     </div>
     <div class="row">
         <div class="col">
+            <a href="novo-jogo.php" class="btn btn-success">NOVO JOGO</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
             <table class="table table-hover table-striped">
                 <thead>
                     <tr>
