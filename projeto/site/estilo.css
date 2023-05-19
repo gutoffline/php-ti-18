@@ -5,3 +5,7 @@
 .bt-roxo:hover{
     background: blueviolet ;
 }
+
+.mudar:hover{
+    opacity: 0.9;
+}

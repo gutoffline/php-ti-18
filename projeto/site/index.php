@@ -44,23 +44,20 @@
 
             $todos_os_jogos = mysqli_query($conexao, $sql_buscar);
 
-            while($um_jogo = mysqli_fetch_assoc($todos_os_jogos)):
-                ?>
+            while ($um_jogo = mysqli_fetch_assoc($todos_os_jogos)) :
+            ?>
                 <div class="col-md-3 text-center mb-4">
-                    <img src="<?php echo $um_jogo["foto"];?>" class="img-fluid" style="object-fit: cover; height: 150px; width: 100%; object-position: top center;">
-                    <h5 class="mt-3 mb-3"><?php echo $um_jogo["titulo"];?></h5>
-                    <?php 
-                        $cor = "";
-                        if ( strtoupper($um_jogo["categoria"]) == "AVENTURA") {
-                            $cor = "red";
-                        }else if (strtoupper($um_jogo["categoria"]) == "LUTA") {
-                            $cor = "green";
-                        }
-                    ?>
-                    <h6 class="mt-3 mb-3" style="color:<?php echo $cor;?>"><?php echo $um_jogo["categoria"];?></h6>
-                    <a href="<?php echo $um_jogo["video"];?>" class="btn btn-outline-primary">VER MAIS</a>
+                    
+                    <div class="card mudar">
+                        <img src="<?php echo $um_jogo["foto"]; ?>" class="card-img-top" style="height: 200px; object-fit:cover">
+                        <div class="card-body">
+                            <h5 class="card-title" style="height: 50px"><?php echo $um_jogo["titulo"]; ?></h5>
+                            <p class="card-text"><?php echo $um_jogo["categoria"]; ?></p>
+                            <a href="<?php echo $um_jogo["video"]; ?>" class="btn btn-primary">VER MAIS</a>
+                        </div>
+                    </div>
                 </div>
-                <?php
+            <?php
             endwhile;
             mysqli_close($conexao);
             ?>
